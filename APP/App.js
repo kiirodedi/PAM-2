@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Hello World!</Text>
+      <Text>Susuh e Kiiro são fodas</Text>
       <StatusBar style="auto" />
     </View>
   );
