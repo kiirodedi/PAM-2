@@ -4,17 +4,23 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
 
   var requestOptions = {
-    method: 'GET'
+    method: 'GET',
+    redirect: 'follow'
   };
 
-  fetch("http://localhost:3000/posts", requestOptions)
-  .then(response => response.json())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));
+  fetch("https://humble-broccoli-4jvx7g4wqpxvfqv66-3000.app.github.dev/posts", requestOptions)
+    .then(response => response.json())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
+
+    fetch("https://humble-broccoli-4jvx7g4wqpxvfqv66-3000.app.github.dev/comments", requestOptions)
+    .then(response => response.json())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Hello World!</Text>
       <StatusBar style="auto" />
     </View>
   );
