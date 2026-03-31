@@ -4,7 +4,7 @@ export default StyleSheet.create({
     container: {
         marginBottom: 16,
         backgroundColor: "#fff",
-        broderRadius: 8,
+        borderRadius: 8,
         padding: 8
     },
 
@@ -17,7 +17,7 @@ export default StyleSheet.create({
     title: {
         fontSize: 18,
         fontWeight: "bold",
-        paddingBlock: 8
+        paddingVertical: 8
     },
 
     year: {

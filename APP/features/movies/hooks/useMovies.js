@@ -3,7 +3,7 @@ import { getMovies} from "../services/movieServices";
 
 export const useMovies = () => {
     const [movies, setMovies] = useState([]);
-    const [loading, setLoading] = useState([true]);
+    const [loading, setLoading] = useState(true);
 
     const fetchMovies = async () => {
         try {

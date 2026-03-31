@@ -1,6 +1,6 @@
-import Reate from "react";
+import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { createNavigationContainer } from "@react-navigation/native-stack";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import { ROUTES } from "../constants/routes";
 
@@ -15,19 +15,19 @@ export default function AppRoutes() {
                 <Stack.Screen
                     name={ROUTES.MOVIE_LIST}
                     component={MovieList}
-                    option={{ title: "Filmes" }}
+                    options={{ title: "Filmes" }}
                 />
 
                 <Stack.Screen
                     name={ROUTES.MOVIE_DETAILS}
                     component={MovieDetails}
-                    option={{ title: "Detalhes do Filme" }}
+                    options={{ title: "Detalhes do Filme" }}
                 />
 
                 <Stack.Screen
                     name={ROUTES.CREATE_MOVIE}
                     component={CreateMovie}
-                    option={{ title: "Cadastrar Filme" }}
+                    options={{ title: "Cadastrar Filme" }}
                 />
             </Stack.Navigator>
         </NavigationContainer>
