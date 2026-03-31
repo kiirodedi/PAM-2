@@ -11,14 +11,6 @@ export default function MovieList() {
 
   if (loading) { return <Text>Carregando...</Text>;}
 
-  if (!movies || movies.length === 0) {
-    return (
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Text>Nenhum filme encontrado.</Text>
-      </View>
-    );
-  }
-
   return (
     <View style={{ padding: 16, flex: 1 }}>
       <FlatList
@@ -35,21 +27,10 @@ export default function MovieList() {
                 movie: item,
               })
             }
-            width="45%"
+            width={"45vw"}
           />
         )}
       />
     </View>
   );
 }
-
-// A tela MovieList é responsável por exibir a lista de filmes.
-// Se não houver filmes, exibe mensagem de vazio.
-// Caso contrário, renderiza a FlatList usando MovieCard.
-
-/*
-A tela MovieList é responsável por exibir a lista de filmes. Ela utiliza o hook useMovies para obter os dados dos filmes e o estado de carregamento. 
-Se os dados ainda estiverem sendo carregados, ela exibe uma mensagem de "Carregando...". 
-Caso contrário, ela renderiza uma FlatList com os filmes, utilizando o componente MovieCard para exibir cada filme individualmente. 
-Quando um usuário toca em um card de filme, a função onPress é chamada, navegando para a tela de detalhes do filme (ROUTES.MOVIE_DETAILS) e passando as informações do filme selecionado como parâmetro.
-*/
