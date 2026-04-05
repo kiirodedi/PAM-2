@@ -1,1 +1,1 @@
-export const API_URL = "https://humble-broccoli-4jvx7g4wqpxvfqv66-3000.app.github.dev";
+export const API_URL = "http://localhost:3000";

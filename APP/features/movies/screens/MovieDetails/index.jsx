@@ -1,10 +1,27 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, Image, FlatList, ScrollView } from "react-native";
+import ActorCard from "../../components/ActorCard";
+import styles from "./styles";
 
-export default function MovieDetails() {
+export default function MovieDetails({ route }) {
+    const { movie } = route.params;
     return (
-        <View>
-            <Text>Detalhes do Filme</Text>
-        </View>
+        <ScrollView>
+            <View>
+                <Text style={styles.title}>{movie.nome}</Text>
+                <Text style={styles.sinopse}>{movie.sinopse}</Text>
+                <Text style={styles.subtitle}>Elenco</Text>
+                <FlatList
+                    style={{ flex: 1 }}
+                    data={movie.elenco}
+                    keyExtractor={(item) => item.id.toString()}
+                    renderItem={({ item }) => (
+                        <ActorCard
+                            actor={item}
+                        />
+                    )}
+                />
+            </View>
+        </ScrollView>
     )
-} 
+}

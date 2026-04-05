@@ -28,7 +28,6 @@
     "totalist": "^3.0.1",
     "type-fest": "^5.4.4"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "npx json-server db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
