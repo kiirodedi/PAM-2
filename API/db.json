@@ -11,13 +11,13 @@
           "id": 1,
           "nome": "Leonardo DiCaprio",
           "personagem": "Jack Dawson",
-          "imagem": "https://upload.wikimedia.org/wikipedia/commons/4/46/Leonardo_DiCaprio_2014.jpg"
+          "imagem": "https://br.web.img3.acsta.net/medias/nmedia/18/92/61/22/20208787.jpg"
         },
         {
           "id": 2,
           "nome": "Kate Winslet",
           "personagem": "Rose DeWitt Bukater",
-          "imagem": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kate_Winslet_2018.jpg"
+          "imagem": "https://br.web.img3.acsta.net/c_310_420/pictures/18/07/18/21/18/1204522.jpg"
         }
       ]
     },
@@ -32,13 +32,13 @@
           "id": 1,
           "nome": "Christian Bale",
           "personagem": "Bruce Wayne / Batman",
-          "imagem": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Christian_Bale-7834.jpg"
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvB_4P5R9IZXqyNhWU62cCgab_6E3r216Lg&s"
         },
         {
           "id": 2,
           "nome": "Heath Ledger",
           "personagem": "Coringa",
-          "imagem": "https://upload.wikimedia.org/wikipedia/commons/7/75/Heath_Ledger.jpg"
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj-EDt4J65eLoiORPJZ55AOyuxie2JQrYVAg&s "
         }
       ]
     },
@@ -53,13 +53,13 @@
           "id": 1,
           "nome": "Robert Downey Jr.",
           "personagem": "Tony Stark / Homem de Ferro",
-          "imagem": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Robert_Downey_Jr_2014_Comic_Con.jpg"
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtNx4F1L-bl9oFRO5dl6k1cwQJX5qvX_MFIw&s"
         },
         {
           "id": 2,
           "nome": "Chris Evans",
           "personagem": "Steve Rogers / Capitão América",
-          "imagem": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Chris_Evans_SDCC_2014.jpg"
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2kniOnNq_Fi9HN6RgBPZ9feb-BOhIqktxWg&s"
         }
       ]
     },
@@ -74,13 +74,13 @@
           "id": 1,
           "nome": "Leonardo DiCaprio",
           "personagem": "Dom Cobb",
-          "imagem": "https://upload.wikimedia.org/wikipedia/commons/4/46/Leonardo_DiCaprio_2014.jpg"
+          "imagem": "https://br.web.img3.acsta.net/medias/nmedia/18/92/61/22/20208787.jpg"
         },
         {
           "id": 2,
           "nome": "Joseph Gordon-Levitt",
           "personagem": "Arthur",
-          "imagem": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Joseph_Gordon-Levitt_SDCC_2012.jpg"
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpmCVzcidj9mVJ1Xudbkx6yLdzHDTTap9hjQ&s"
         }
       ]
     }

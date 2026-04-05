@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image, FlatList, ScrollView } from "react-native";
+import { View, Text, FlatList, ScrollView } from "react-native";
 import ActorCard from "../../components/ActorCard";
 import styles from "./styles";
 
