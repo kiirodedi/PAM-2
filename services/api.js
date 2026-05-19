@@ -3,6 +3,9 @@ import { API_URL, API_KEY } from "../constants/config";
 
 export const api = axios.create({  
   baseURL: API_URL,
+  params:{
+    language: "pt-BR"
+  }
 });
 
 api.interceptors.request.use((config) => {
