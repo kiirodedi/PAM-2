@@ -1,18 +1,17 @@
-import { StyleSheet } from "react-native";
+import React from "react";
+import { ActivityIndicator, Text, View } from "react-native";
+import styles from "./styles";
 
-const styles = StyleSheet.create({
-	container: {
-		alignItems: "center",
-		justifyContent: "center",
-	},
-	fullScreen: {
-		flex: 1,
-	},
-	label: {
-		marginTop: 12,
-		fontSize: 16,
-		color: "#374151",
-	},
-});
-
-export default styles;
+export default function Loading({
+	fullScreen = true,
+	size = "large",
+	color = "#111827",
+	label,
+}) {
+	return (
+		<View style={[styles.container, fullScreen && styles.fullScreen]}>
+			<ActivityIndicator size={size} color={color} />
+			{label ? <Text style={styles.label}>{label}</Text> : null}
+		</View>
+	);
+}
