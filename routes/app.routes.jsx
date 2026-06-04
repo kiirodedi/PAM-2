@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import { ROUTES } from "../constants/routes";
 
-import { MovieList, MovieDetails, CreateMovie } from "../features/movies";
+import { MovieList, MovieDetails, CreateMovie } from "../features/movies/index.js";
 
 const Stack = createNativeStackNavigator();
 

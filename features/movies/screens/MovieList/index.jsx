@@ -1,8 +1,8 @@
 import React from "react";
 import { View, FlatList } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import { useMovies } from "../../hooks/useMovies";
-import MovieCard from "../../components/MovieCard";
+import { useMovies } from "../../hooks/useMovie.js";
+import MovieCard from "../../components/MovieCard/index.jsx";
 import Loading from "../../../../components/Loading";
 import { ROUTES } from "../../../../constants/routes";
 

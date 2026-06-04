@@ -1,7 +1,7 @@
 import React from "react";
 import { useRoute } from "@react-navigation/native";
-import { useMovieDetails, useElencoMovie } from "../../hooks/useMovies";
-import ActorCard from "../../components/ActorCard";
+import { useMovieDetails, useElencoMovie } from "../../hooks/useMovie.js";
+import ActorCard from "../../components/ActorCard/index.jsx";
 import { Text, Image, ScrollView, FlatList, View } from "react-native";
 import Loading from "../../../../components/Loading";
 import styles from "./styles";
